@@ -41,8 +41,6 @@
                         <h3 class="text-white">Pas de tweets pour le moment ...</h3>
                     </div>
                 @endif
-
-
                 @foreach ($tweets as $tweet)
                     <div class="card bg-gray-700 rounded-lg text-white p-6 m-5">
                         <td class="uppercase"></td>
@@ -57,10 +55,6 @@
                         @endif
                     </div>
                 @endforeach
-
-
-
-
             </div>
         </div>
     </div>
