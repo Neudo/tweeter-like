@@ -20,10 +20,10 @@
                         </ul>
                     </div>
                 @endif
-                <form class="w-full" method="POST">
+                <form class="w-full py-5" method="POST">
                     @csrf
                     <textarea class="w-full" name="message" id="message" cols="30" rows="11"></textarea>
-                    <button class="px-5 py-2 mx-2 text-white bg-indigo-400" type="submit">Envoyer</button>
+                    <button class="px-5 p-2 mx-2  bg-white text-bg-gray-900" type="submit">Envoyer</button>
                 </form>
 
             </div>
