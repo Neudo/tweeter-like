@@ -12,7 +12,7 @@
 
     <!-- Styles -->
 </head>
-<body class="antialiased bg-blue-600" style="background-color: #0161b7; color: white; font-family: sans-serif">
+<body class="antialiased bg-blue-600" style=" min-height:100vh; background: linear-gradient(43deg, rgba(7,0,121,1) 0%, rgba(40,40,176,1) 46%, rgba(0,212,255,1) 100%); color: white; font-family: sans-serif">
 
 <div class="py-12">
     <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
@@ -21,9 +21,9 @@
                 <h1 class="text-center text-red-700" style="font-size: 70px; text-align: center">Twitter like</h1>
                 <p class="text-center p-6 text-red-700" style="text-align: center; font-size: 24px">Partager votre vie... avec pas beaucoup de monde.</p>
             </div>
-            <div class="links" style="width: 40%; margin:20px auto;display: flex;justify-content: space-between; background-color: white; padding: 40px">
-                <a style="text-decoration: none; color: #0162b7; font-weight: bold" href="{{ route('login') }}">Se connecter</a>
-                <a style="text-decoration: none; color: #0162b7; font-weight: bold" href="{{ route('register') }}">S'inscrire</a>
+            <div class="links" style="width: 40%; margin:60px auto;display: flex;justify-content: space-between; background-color: #2a33b6; padding: 40px;box-shadow: 2px 1px 17px 0px white;">
+                <a style="text-decoration: none; padding: 30px 70px; color: white; font-weight: bold" href="{{ route('login') }}">Se connecter</a>
+                <a style="text-decoration: none; padding: 30px 70px; color: white; font-weight: bold" href="{{ route('register') }}">S'inscrire</a>
             </div>
         </div>
     </div>
